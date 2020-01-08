@@ -42,10 +42,10 @@ a:hover {
 
 section {
   margin-bottom: 120px;
+  min-width: 1200px;
 }
 
 .content-wrapper {
-  max-width: 1400px;
   min-width: 1200px;
   margin: 0 auto;
 }
@@ -127,6 +127,7 @@ section {
 
 .greeting .content {
   width: 48%;
+  margin: 16px;
 }
 
 /*========= work ===========*/
@@ -154,13 +155,13 @@ section {
 .work ul {
   display: flex;
   justify-content: space-between;
-  max-width: 1400px;
   min-width: 1200px;
   margin: 0 auto;
 }
 
 .work ul li {
   width: 400px;
+  margin: 16px;
 }
 
 /*========= news ===========*/
@@ -179,6 +180,7 @@ section {
   border-bottom: dotted 1px #dedede;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin: 16px;
 }
 
 .news li a {
@@ -241,11 +243,19 @@ section {
 }
 
 /*========= footer ===========*/
+footer{
+  min-width: 1200px;
+}
+
 footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
+}
+
+.address{
+  margin: 16px;
 }
 
 .address p {
